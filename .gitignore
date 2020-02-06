@@ -1,0 +1,12 @@
+node_modules/
+.vs/
+npm-debug.log
+dist/
+*.suo
+project.lock.json
+*.xproj.user
+src/server/.vs/config/applicationhost.config
+.vscode
+bin/
+obj/
+
