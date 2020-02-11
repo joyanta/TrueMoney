@@ -18,7 +18,7 @@ jobs:
   
     steps:
       - checkout:
-          path: ~/TrueMoney
+          path: ~/TrueMoney/src
 
       # Download and cache dependencies
       - restore_cache:
