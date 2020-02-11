@@ -14,12 +14,12 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
 
-    working_directory: ~/TrueMoney
+    working_directory: ~/TrueMoney/src/web-ui
   
     steps:
       - checkout
+          path: ~/TrueMoney
 
-      - run: cd src/web-ui
       # Download and cache dependencies
       - restore_cache:
           keys:
