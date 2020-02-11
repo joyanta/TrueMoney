@@ -19,7 +19,7 @@ jobs:
     steps:
       - checkout
 
-      - run: cd web-ui
+      - run: cd src/web-ui
 
       # Download and cache dependencies
       - restore_cache:
