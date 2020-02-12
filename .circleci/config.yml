@@ -35,4 +35,5 @@ jobs:
 
       # run tests!
       - run: cd src/web-ui && yarn ng build truemoney-web --prod
-      # - run: yarn ng test --single-run
+      - run: cd src/web-ui && yarn ng test --single-run
+      - run: echo Build finished
